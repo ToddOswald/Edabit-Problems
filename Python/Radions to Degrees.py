@@ -1,7 +1,8 @@
 import math
 
 def radians_to_degrees(rad):
-	return rad * (180 / math.pi)
+	ans = rad * (180 / math.pi)
+	return round(ans, 1)
 
 rad = 1
 
